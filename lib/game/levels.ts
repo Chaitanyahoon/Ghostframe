@@ -5,7 +5,7 @@ export const LEVEL_COUNT = 15
 export const LEVELS: LevelConfig[] = [
   {
     id: 1,
-    name: "BOOT SEQUENCE CORRUPTION",
+    name: "💻 BOOT SEQUENCE CORRUPTION",
     description: "The system won't start. Rearrange the boot code fragments to restore the initialization sequence. Watch for syntax errors!",
     difficulty: "Tutorial",
     puzzleType: "codeFragment",
@@ -17,7 +17,7 @@ export const LEVELS: LevelConfig[] = [
   },
   {
     id: 2,
-    name: "LOGIC CIRCUIT FAILURE",
+    name: "🔌 LOGIC CIRCUIT FAILURE",
     description: "Security sensors are malfunctioning. Fix the logic gates to restore the alarm system before intruders break through.",
     difficulty: "Easy",
     puzzleType: "logicGate",
@@ -29,7 +29,7 @@ export const LEVELS: LevelConfig[] = [
   },
   {
     id: 3,
-    name: "MEMORY PATTERN RECOVERY",
+    name: "🧠 MEMORY PATTERN RECOVERY",
     description: "Critical data fragments are scattered. Reconstruct the memory sequence to recover lost system configurations.",
     difficulty: "Easy",
     puzzleType: "memorySequence",
@@ -41,7 +41,7 @@ export const LEVELS: LevelConfig[] = [
   },
   {
     id: 4,
-    name: "SORTING ALGORITHM REPAIR",
+    name: "🔄 SORTING ALGORITHM REPAIR",
     description: "Database records are in chaos. Restore the bubble sort algorithm to organize the corrupted data files.",
     difficulty: "Medium",
     puzzleType: "algorithmReconstruction",
@@ -53,7 +53,7 @@ export const LEVELS: LevelConfig[] = [
   },
   {
     id: 5,
-    name: "TERMINAL EMERGENCY PROTOCOL",
+    name: "🖥️ TERMINAL EMERGENCY PROTOCOL",
     description: "System integrity compromised. Execute emergency commands through the terminal to stabilize the core.",
     difficulty: "Medium",
     puzzleType: "terminalHacking",
@@ -65,7 +65,7 @@ export const LEVELS: LevelConfig[] = [
   },
   {
     id: 6,
-    name: "BINARY TREE RESTORATION",
+    name: "🌳 BINARY TREE RESTORATION",
     description: "File system hierarchy collapsed. Rebuild the binary tree structure to restore proper data organization.",
     difficulty: "Medium",
     puzzleType: "binaryTree",
@@ -77,7 +77,7 @@ export const LEVELS: LevelConfig[] = [
   },
   {
     id: 7,
-    name: "NETWORK PATH RECONSTRUCTION",
+    name: "🌐 NETWORK PATH RECONSTRUCTION",
     description: "Communication links severed. Navigate the corrupted network graph to restore connectivity between systems.",
     difficulty: "Hard",
     puzzleType: "graphTraversal",
@@ -89,7 +89,7 @@ export const LEVELS: LevelConfig[] = [
   },
   {
     id: 8,
-    name: "HASH TABLE COLLISION RESOLUTION",
+    name: "🔑 HASH TABLE COLLISION RESOLUTION",
     description: "Data indexing system overloaded. Resolve hash collisions to prevent data loss and system crashes.",
     difficulty: "Hard",
     puzzleType: "hashTable",
@@ -101,7 +101,7 @@ export const LEVELS: LevelConfig[] = [
   },
   {
     id: 9,
-    name: "DYNAMIC PROGRAMMING OPTIMIZATION",
+    name: "⚡ DYNAMIC PROGRAMMING OPTIMIZATION",
     description: "Recursive functions causing performance bottlenecks. Implement memoization to optimize the fibonacci sequence calculation.",
     difficulty: "Hard",
     puzzleType: "dynamicProgramming",
@@ -113,7 +113,7 @@ export const LEVELS: LevelConfig[] = [
   },
   {
     id: 10,
-    name: "STACK OPERATIONS RECOVERY",
+    name: "📚 STACK OPERATIONS RECOVERY",
     description: "Function call stack corrupted. Restore proper stack operations to prevent program crashes.",
     difficulty: "Expert",
     puzzleType: "stackOverflow",
@@ -125,7 +125,7 @@ export const LEVELS: LevelConfig[] = [
   },
   {
     id: 11,
-    name: "LINKED DATA STRUCTURE REPAIR",
+    name: "🔗 LINKED DATA STRUCTURE REPAIR",
     description: "Data chains broken. Reconnect the linked list nodes to restore data integrity and prevent memory leaks.",
     difficulty: "Expert",
     puzzleType: "linkedListCorruption",
@@ -137,7 +137,7 @@ export const LEVELS: LevelConfig[] = [
   },
   {
     id: 12,
-    name: "RECURSIVE LOOP TERMINATION",
+    name: "🔁 RECURSIVE LOOP TERMINATION",
     description: "Infinite recursion detected. Break the recursive cycle in the factorial function before stack overflow.",
     difficulty: "Expert",
     puzzleType: "recursionLoop",
@@ -149,7 +149,7 @@ export const LEVELS: LevelConfig[] = [
   },
   {
     id: 13,
-    name: "DATABASE RELATIONSHIP RESTORATION",
+    name: "🗄️ DATABASE RELATIONSHIP RESTORATION",
     description: "Data relationships corrupted. Fix the SQL queries and table joins to restore database functionality.",
     difficulty: "Master",
     puzzleType: "databaseCorruption",
@@ -161,7 +161,7 @@ export const LEVELS: LevelConfig[] = [
   },
   {
     id: 14,
-    name: "NETWORK PROTOCOL LAYER RECOVERY",
+    name: "📡 NETWORK PROTOCOL LAYER RECOVERY",
     description: "Communication protocol stack failing. Rebuild each OSI layer to restore full network connectivity.",
     difficulty: "Master",
     puzzleType: "networkProtocol",
@@ -173,7 +173,7 @@ export const LEVELS: LevelConfig[] = [
   },
   {
     id: 15,
-    name: "SYSTEM CORE SINGULARITY",
+    name: "💀 SYSTEM CORE SINGULARITY",
     description: "All systems converging to a single point of failure. Master every algorithmic paradigm to escape the digital abyss.",
     difficulty: "Legendary",
     puzzleType: "multiAlgorithm",

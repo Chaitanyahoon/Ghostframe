@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   icons: {
     icon: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👻</text></svg>',
   },
+  manifest: '/manifest.json',
   openGraph: {
     title: 'GhostFrame — Glitch Horror Web Game',
     description: 'Trapped in a corrupted simulation. Solve 15 escalating CS puzzles before the system collapses.',
