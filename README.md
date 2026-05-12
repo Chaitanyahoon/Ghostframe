@@ -1,96 +1,109 @@
 # 👻 GhostFrame
 
-**A Glitch Horror Web Game** — Trapped in a corrupted simulation. Can you escape?
+**GhostFrame** is a glitch horror puzzle game built with **Next.js**, **React**, and **Tailwind CSS**.
 
-🎮 [Play Now on Vercel](https://ghostframe-seven.vercel.app/)
+You are trapped inside a corrupted simulation. Repair broken systems, outsmart hostile AI, and escape through 15 escalating levels of logic-based challenges.
 
----
-
-## 🕹️ About the Game
-
-**GhostFrame** is a single-player glitch horror web game that plunges you into a haunted, corrupted digital world. Built using **Next.js** and **Tailwind CSS**, the game challenges you to solve eerie puzzles, interpret distorted visuals, and break the very code that confines you.
-
-> “Was trying to practice frontend dev… ended up summoning a ghost in my browser.” 💀
+🎮 Live demo: https://ghostframe-seven.vercel.app/
 
 ---
 
-## 🌐 Live Demo
+## 🕹️ What is GhostFrame?
 
-🔗 [https://ghostframe-seven.vercel.app](https://ghostframe-seven.vercel.app)
+GhostFrame blends atmospheric horror styling with puzzle-driven gameplay. Players progress through a series of levels that test logic, pattern recognition, and timing while navigating a collapsing digital environment.
 
----
+Key gameplay elements:
 
-## 🧩 Features
-
-- 🕳️ Glitch Horror Vibes with CSS + Canvas Effects  
-- 🧠 Visual Puzzles & Code-Based Riddles  
-- 💻 Simulation Breakdown & Hidden Clues  
-- 📟 Minimal UI + Creepy Sound Design  
-- 🧠 No jumpscares – just psychological weirdness
+- 15 progressive levels of corruption and puzzles
+- level select matrix with unlockable stages
+- real-time threat management and stealth mechanics
+- code fragment, logic gate, recursion, and memory puzzles
+- auto-save and resume support
 
 ---
 
-## ⚙️ Tech Stack
+## ✨ Features
 
-- **Framework**: [Next.js](https://nextjs.org/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Effects**: CSS keyframes, glitch filters, and Canvas for corruption visuals
-- **Deployment**: [Vercel](https://vercel.com/)
+- **Mobile-first UX** with responsive layout, large touch targets, and safe-area support
+- **Modern horror aesthetic** using glitch effects, CRT-style overlays, and low-light UI
+- **Puzzle variety**: logic gates, binary trees, linked lists, recursion loops, and more
+- **Sound-driven feedback** with micro-synth audio cues for actions and failures
+- **Progress tracking** and best-time indicators per level
+- **Client-side persistence** using browser storage
 
 ---
 
-## 🚀 Getting Started Locally
+## 🧰 Tech Stack
 
-1. **Clone the Repository**
+- **Next.js 15**
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS**
+- **Vitest** for testing
+- **Lucide React** icons
+- **Radix UI / shadcn** components
+
+---
+
+## 🚀 Run Locally
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/Chaitanyahoon/ghostframe.git
-   cd ghostframe
+   cd ghostframe/Ghostframe
    ```
 
-2. **Install Dependencies**
+2. Install dependencies:
    ```bash
-   bash 
    npm install
    ```
-3. **Run the Development Server**
+
+3. Start the dev server:
    ```bash
    npm run dev
    ```
-4. **Open http://localhost:3000 in your browser to play locally.**
 
-## 📸 Screenshot
-![GhostFrame Preview](public/Screenshot.png)
-
-## 📣 Share Your Score!
- *Post it on LinkedIn and tag me!
- Add something like:*
-
-“Couldn’t find a job, so I made a haunted game: 
-http://ghostframe-seven.vercel.app 👻💻 What’s your score?”
-
-## 🧠 Fun Fact
-
-   *In GhostFrame, sometimes the “error” is your only way forward.*\
+4. Open the app:
+   ```text
+   http://localhost:3000
+   ```
 
 ---
 
-### 🧾 `LICENSE` (MIT License)
+## 🧪 Build & Test
 
-```text
-MIT License
+- Build production output:
+  ```bash
+  npm run build
+  ```
 
-Copyright (c) 2025 Chaitanya Patil
+- Run tests:
+  ```bash
+  npm test
+  ```
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights  
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
-copies of the Software, and to permit persons to whom the Software is  
-furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all  
-copies or substantial portions of the Software.
-```
+## 📁 Project Structure
+
+- `app/` — Next.js App Router pages and global styling
+- `components/` — reusable UI elements and game screens
+- `hooks/` — client behavior and game state hooks
+- `lib/` — game engine, puzzle definitions, persistence, and utilities
+- `public/` — static assets
+
+---
+
+## 💡 Notes
+
+- The game uses browser storage for progress and resumed sessions.
+- The UI is designed for both desktop and mobile gameplay.
+
+---
+
+## 📜 License
+
+GhostFrame is licensed under the MIT License.
 
 
 
