@@ -21,7 +21,7 @@ export const IntroScreen = React.memo(function IntroScreen({
     <div className="flex flex-col items-center justify-center min-h-screen relative z-10 p-4 mobile-safe-area">
       <div className="relative z-20 mb-6 sm:mb-10 text-center animate-pulse motion-reduce:animate-none">
         <img
-          src="/icon-192x192.png"
+          src="/logo-transparent.png"
           alt="GhostFrame Skull Logo"
           className="w-16 h-16 sm:w-24 sm:h-24 mx-auto mb-4 object-contain"
           style={{ filter: "drop-shadow(0 0 16px rgba(0,255,65,0.4))" }}
@@ -92,7 +92,7 @@ export const IntroScreen = React.memo(function IntroScreen({
 
           <div className="flex flex-wrap justify-center gap-2 sm:gap-4 text-xs text-gray-400 pt-1">
             <div className="flex items-center gap-1">
-              <img src="/icon-192x192.png" alt="Skull" className="w-3 h-3 shrink-0" />
+              <img src="/logo-transparent.png" alt="Skull" className="w-3 h-3 shrink-0" />
               <span>Horror Theme</span>
             </div>
             <div className="flex items-center gap-1">
