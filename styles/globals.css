@@ -11,6 +11,7 @@ body {
     text-wrap: balance;
   }
 }
+/* aria-label */
 
 @layer base {
   :root {

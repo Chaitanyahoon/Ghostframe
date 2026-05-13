@@ -78,7 +78,7 @@ function PuzzleViewComponent({
       return <NetworkProtocolPuzzle data={puzzle as NetworkProtocolPuzzleData} onAction={onAction} />
     case "terminalHacking":
       return (
-        <form onSubmit={onTerminalSubmit}>
+        <form onSubmit={onTerminalSubmit} aria-label="Terminal Input Form">
           <TerminalHackingPuzzle
             data={puzzle as TerminalHackingPuzzleData}
             terminalInput={terminalInput}

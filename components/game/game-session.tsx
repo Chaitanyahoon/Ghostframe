@@ -68,6 +68,7 @@ export const GameSession = React.memo(function GameSession({
               onClick={showHintSystem}
               variant="outline"
               size="sm"
+              aria-label="Get Hint"
               className="border-yellow-400 text-yellow-400 hover:bg-yellow-900/20 animate-pulse mobile-touch-target touch-manipulation"
             >
               <Lightbulb className="w-3 h-3 mr-1" />

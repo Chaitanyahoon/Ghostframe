@@ -20,9 +20,11 @@ export const IntroScreen = React.memo(function IntroScreen({
   return (
     <div className="flex flex-col items-center justify-center min-h-screen relative z-10 p-4 mobile-safe-area">
       <div className="relative z-20 mb-6 sm:mb-10 text-center animate-pulse motion-reduce:animate-none">
-        <Skull
-          className="w-14 h-14 sm:w-18 sm:h-18 mx-auto mb-4 text-red-400"
-          style={{ filter: "drop-shadow(0 0 16px rgba(255,0,64,0.7))" }}
+        <img
+          src="/icon-192x192.png"
+          alt="GhostFrame Skull Logo"
+          className="w-16 h-16 sm:w-24 sm:h-24 mx-auto mb-4 object-contain"
+          style={{ filter: "drop-shadow(0 0 16px rgba(0,255,65,0.4))" }}
         />
         <h1
           className="mobile-heading-scale text-4xl sm:text-6xl font-black mb-2 text-green-400 glitch-text text-glow-green tracking-[0.45em] uppercase"
@@ -36,7 +38,7 @@ export const IntroScreen = React.memo(function IntroScreen({
         <p className="text-xs sm:text-sm text-gray-500 tracking-[0.24em] uppercase">15 Levels · Escalating System Failures</p>
       </div>
 
-      <Card className="relative z-20 bg-gray-900/95 border border-green-400/30 p-5 sm:p-8 max-w-2xl mx-auto backdrop-blur-2xl shadow-2xl w-full">
+      <Card className="relative z-20 bg-gray-900/95 border border-green-400/30 p-5 sm:p-8 max-w-2xl mx-auto backdrop-blur-2xl shadow-2xl w-full" aria-label="Intro Screen Card">
         <div className="space-y-5 sm:space-y-6">
           <div className="space-y-3 text-center sm:text-left">
             <p className="text-gray-200 text-base sm:text-lg leading-relaxed">
@@ -90,7 +92,7 @@ export const IntroScreen = React.memo(function IntroScreen({
 
           <div className="flex flex-wrap justify-center gap-2 sm:gap-4 text-xs text-gray-400 pt-1">
             <div className="flex items-center gap-1">
-              <Skull className="w-3 h-3 shrink-0" />
+              <img src="/icon-192x192.png" alt="Skull" className="w-3 h-3 shrink-0" />
               <span>Horror Theme</span>
             </div>
             <div className="flex items-center gap-1">

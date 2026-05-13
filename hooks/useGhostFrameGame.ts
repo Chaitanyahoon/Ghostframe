@@ -112,6 +112,17 @@ export function useGhostFrameGame() {
         osc.start(now)
         osc.stop(now + 1.5)
         break
+
+      case "ambient-drone":
+        osc.type = "sine"
+        osc.frequency.setValueAtTime(55, now)
+        osc.frequency.linearRampToValueAtTime(65, now + 5)
+        gain.gain.setValueAtTime(0, now)
+        gain.gain.linearRampToValueAtTime(0.05, now + 2)
+        gain.gain.linearRampToValueAtTime(0, now + 5)
+        osc.start(now)
+        osc.stop(now + 5)
+        break
     }
   }, [])
 
@@ -275,9 +286,16 @@ export function useGhostFrameGame() {
         setGlitchIntensity((prev) => Math.min(1, prev + currentLevelConfig.corruptionRate * 0.05))
       }, 1000)
 
-      return () => clearInterval(corruptionInterval)
+      const ambientInterval = setInterval(() => {
+        playSynthSound("ambient-drone")
+      }, 8000)
+
+      return () => {
+        clearInterval(corruptionInterval)
+        clearInterval(ambientInterval)
+      }
     }
-  }, [gameState.currentScreen, currentLevelConfig])
+  }, [gameState.currentScreen, currentLevelConfig, playSynthSound])
 
   // Auto-save game state
   useEffect(() => {

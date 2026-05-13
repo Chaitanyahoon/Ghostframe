@@ -2,7 +2,7 @@ export type GameScreen = "intro" | "levelSelect" | "game" | "terminal" | "escape
 
 export type EnemyType = "scanner" | "hunter" | "corruptor" | "virus" | "phantom"
 
-export type SynthSound = "hover" | "click" | "success" | "error" | "glitch" | "gamestart"
+export type SynthSound = "hover" | "click" | "success" | "error" | "glitch" | "gamestart" | "ambient-drone"
 
 export interface EnemyPosition {
   x: number

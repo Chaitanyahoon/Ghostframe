@@ -16,7 +16,7 @@ export function MultiAlgorithmPuzzle({
       <p className="text-sm text-gray-400 mb-4">Complete all system restoration challenges:</p>
       <div className="space-y-4">
         {data.challenges?.map((challenge, index: number) => (
-          <Card key={index} className="bg-gray-800 p-4">
+          <Card key={index} className="bg-gray-800 p-4" aria-label="Challenge Card">
             <h4 className="font-bold mb-2">
               Challenge {index + 1}: {challenge.type.toUpperCase()} CORRUPTION
               {challenge.solved && <span className="text-green-400 ml-2">✓ RESTORED</span>}

@@ -27,7 +27,7 @@ export function getCorruptionIcon(corruptionType: string) {
     case "algorithm_decay":
       return <Binary className="w-4 h-4" />
     case "kernel_breach":
-      return <Skull className="w-4 h-4" />
+      return <img src="/icon-192x192.png" alt="skull" className="w-4 h-4 object-contain" />
     case "tree_corruption":
       return <GitBranch className="w-4 h-4" />
     case "network_failure":
@@ -47,7 +47,7 @@ export function getCorruptionIcon(corruptionType: string) {
     case "protocol_decay":
       return <Network className="w-4 h-4" />
     case "total_collapse":
-      return <Skull className="w-4 h-4" />
+      return <img src="/icon-192x192.png" alt="skull" className="w-4 h-4 object-contain" />
     default:
       return <Bug className="w-4 h-4" />
   }
@@ -60,7 +60,7 @@ export function getEnemyIcon(type: string) {
     case "hunter":
       return <Zap className="w-full h-full" />
     case "corruptor":
-      return <Skull className="w-full h-full" />
+      return <img src="/icon-192x192.png" alt="skull" className="w-full h-full object-contain mix-blend-screen" />
     case "virus":
       return <AlertTriangle className="w-full h-full" />
     case "phantom":
@@ -77,7 +77,7 @@ export function getEnemyColor(type: string) {
     case "hunter":
       return "bg-red-500 shadow-red-500/50"
     case "corruptor":
-      return "bg-purple-500 shadow-purple-500/50"
+      return "bg-emerald-500 shadow-emerald-500/50"
     case "virus":
       return "bg-green-500 shadow-green-500/50"
     case "phantom":

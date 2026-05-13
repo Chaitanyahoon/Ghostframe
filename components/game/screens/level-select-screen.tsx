@@ -64,6 +64,7 @@ export const LevelSelectScreen = React.memo(function LevelSelectScreen({
               return (
                 <Card
                   key={level.id}
+                  aria-label={`Level ${level.id} Card`}
                   className={`p-3 sm:p-4 transition-all duration-300 min-h-[180px] touch-manipulation ${
                     isUnlocked
                       ? "bg-gray-900/80 border-green-400/50 hover:border-green-400 cursor-pointer hover:scale-[1.02] active:scale-[0.99]"
